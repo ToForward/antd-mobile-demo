@@ -1,4 +1,4 @@
-# ant-design-mobile搭建
+# antd-mobile搭建
 
 ### 说明
 

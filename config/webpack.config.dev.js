@@ -8,7 +8,7 @@ var InterpolateHtmlPlugin = require('react-dev-utils/InterpolateHtmlPlugin');
 var WatchMissingNodeModulesPlugin = require('react-dev-utils/WatchMissingNodeModulesPlugin');
 var getClientEnvironment = require('./env');
 var paths = require('./paths');
-
+const pxtorem = require('postcss-pxtorem');
 
 
 // Webpack uses `publicPath` to determine where the app is being served from.
@@ -182,6 +182,10 @@ module.exports = {
           'not ie < 9', // React doesn't support IE8 anyway
         ]
       }),
+      pxtorem({
+          rootValue: 100,
+          propWhiteList: [],
+      })
     ];
   },
   plugins: [

@@ -152,6 +152,10 @@ loaders: [
 npm install react-router --save
 ```
 
+#### 添加高清方案
+
+参见[antd mobile 0.8 以上版本「高清」方案设置](https://github.com/ant-design/ant-design-mobile/wiki/antd-mobile-0.8-%E4%BB%A5%E4%B8%8A%E7%89%88%E6%9C%AC%E3%80%8C%E9%AB%98%E6%B8%85%E3%80%8D%E6%96%B9%E6%A1%88%E8%AE%BE%E7%BD%AE)
+
 #### 常见的坑
 
 1. react-router版本的问题
